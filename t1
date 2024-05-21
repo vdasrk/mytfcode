@@ -1,0 +1,1600 @@
+{
+    "TableMetadataList": [
+        {
+            "Name": "daily",
+            "CreateTime": "2023-09-22T12:05:35-04:00",
+            "LastAccessTime": "2023-09-23T02:16:19-04:00",
+            "TableType": "EXTERNAL_TABLE",
+            "Columns": [
+                {
+                    "Name": "identity_line_item_id",
+                    "Type": "string"
+                },
+                {
+                    "Name": "identity_time_interval",
+                    "Type": "string"
+                },
+                {
+                    "Name": "bill_billing_entity",
+                    "Type": "string"
+                },
+                {
+                    "Name": "bill_bill_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "bill_payer_account_id",
+                    "Type": "string"
+                },
+                {
+                    "Name": "bill_billing_period_start_date",
+                    "Type": "timestamp"
+                },
+                {
+                    "Name": "bill_billing_period_end_date",
+                    "Type": "timestamp"
+                },
+                {
+                    "Name": "line_item_usage_account_id",
+                    "Type": "string"
+                },
+                {
+                    "Name": "line_item_line_item_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "line_item_usage_start_date",
+                    "Type": "timestamp"
+                },
+                {
+                    "Name": "line_item_usage_end_date",
+                    "Type": "timestamp"
+                },
+                {
+                    "Name": "line_item_product_code",
+                    "Type": "string"
+                },
+                {
+                    "Name": "line_item_usage_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "line_item_operation",
+                    "Type": "string"
+                },
+                {
+                    "Name": "line_item_availability_zone",
+                    "Type": "string"
+                },
+                {
+                    "Name": "line_item_resource_id",
+                    "Type": "string"
+                },
+                {
+                    "Name": "line_item_usage_amount",
+                    "Type": "double"
+                },
+                {
+                    "Name": "line_item_normalization_factor",
+                    "Type": "double"
+                },
+                {
+                    "Name": "line_item_normalized_usage_amount",
+                    "Type": "double"
+                },
+                {
+                    "Name": "line_item_currency_code",
+                    "Type": "string"
+                },
+                {
+                    "Name": "line_item_unblended_rate",
+                    "Type": "string"
+                },
+                {
+                    "Name": "line_item_unblended_cost",
+                    "Type": "double"
+                },
+                {
+                    "Name": "line_item_blended_rate",
+                    "Type": "string"
+                },
+                {
+                    "Name": "line_item_blended_cost",
+                    "Type": "double"
+                },
+                {
+                    "Name": "line_item_line_item_description",
+                    "Type": "string"
+                },
+                {
+                    "Name": "line_item_tax_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "line_item_net_unblended_rate",
+                    "Type": "string"
+                },
+                {
+                    "Name": "line_item_net_unblended_cost",
+                    "Type": "double"
+                },
+                {
+                    "Name": "line_item_legal_entity",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_product_name",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_purchase_option",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_access_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_alarm_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_analytics_mode",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_analytics_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_api_calls",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_api_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_attachment_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_availability",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_availability_zone",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_awsresource",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_backupservice",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_broker_engine",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_bundle",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_bundle_description",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_bundle_group",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_cache_engine",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_cache_memory_size_gb",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_cache_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_calling_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_capacity",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_capacitystatus",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_category",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_channel",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_ci_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_classicnetworkingsupport",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_client_location",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_clock_speed",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_cloud_search_version",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_comment",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_component",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_compute_family",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_compute_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_connection_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_content_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_country",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_cputype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_current_generation",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_data",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_data_transfer",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_database_edition",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_database_engine",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_datatransferout",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_dedicated_ebs_throughput",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_deployment_model",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_deployment_model_description",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_deployment_option",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_describes",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_description",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_device_description",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_direct_connect_location",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_directory_size",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_directory_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_directory_type_description",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_dominantnondominant",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_durability",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_ecu",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_edition",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_endpoint",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_endpoint_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_engine_code",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_enhanced_networking_support",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_enhanced_networking_supported",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_entity_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_equivalentondemandsku",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_event_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_execution_frequency",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_execution_location",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_extra_day_fee",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_fee_code",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_fee_description",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_file_system_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_finding_group",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_finding_source",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_finding_storage",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_free_days",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_free_query_types",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_free_trial",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_free_usage_included",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_frequency_mode",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_from_location",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_from_location_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_from_region_code",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_fusf_category",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_georegioncode",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_gets",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_gpu",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_gpu_memory",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_granularity",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_group",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_group_description",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_input_mode",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_insightstype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_instance",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_instance_family",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_instance_name",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_instance_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_instance_type_family",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_instancesku",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_intel_avx2_available",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_intel_avx_available",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_intel_turbo_available",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_io",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_job_fee",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_jobnshipp",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_license",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_license_model",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_line_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_location",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_location_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_logs_destination",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_marketoption",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_max_iops_burst_performance",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_max_iopsvolume",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_max_throughputvolume",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_max_volume_size",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_maximum_extended_storage",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_maximum_storage_volume",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_memory",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_memory_gib",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_memorytype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_message_delivery_frequency",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_message_delivery_order",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_metering_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_min_volume_size",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_minimum_storage_volume",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_network_performance",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_normalization_size_factor",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_operating_system",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_operation",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_ops_items",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_origin",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_output_mode",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_parameter_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_physical_cpu",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_physical_gpu",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_physical_processor",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_plan_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platoclassificationtype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platofeaturetype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platoinstancename",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platoinstancetype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platopagedatatype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platopricingtype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platopricingunittype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platoprotectionpolicytype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platoprotocoltype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platosnowballtype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platostoragename",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platostoragetype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platotrafficdirection",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platotransfertype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platousagetype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_platovolumetype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_port_speed",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_pre_installed_sw",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_pricing_unit",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_primaryplaceofuse",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_processor_architecture",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_processor_features",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_product_family",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_product_schema_description",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_product_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_provisioned",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_purchaseterm",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_queue_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_ratetype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_recipient",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_region",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_region_code",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_release_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_request_description",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_request_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_resource_assessment",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_resource_endpoint",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_resource_price_group",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_resource_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_rootvolume",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_routing_target",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_routing_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_running_mode",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_servicecode",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_servicename",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_size",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_sku",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_snowball_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_software_included",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_software_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_standard_group",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_standard_storage",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_standard_storage_retention_included",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_steps",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_storage",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_storage_class",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_storage_family",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_storage_media",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_storage_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_subcategory",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_subscription_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_supported_modes",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_tenancy",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_throughput",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_throughput_capacity",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_throughput_class",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_tiertype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_to_location",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_to_location_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_to_region_code",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_traffic_direction",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_transaction_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_transfer_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_updates",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_usage_family",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_usagetype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_uservolume",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_vcpu",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_version",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_virtual_interface_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_volume_api_name",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_volume_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_vpcnetworkingsupport",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_with_active_users",
+                    "Type": "string"
+                },
+                {
+                    "Name": "pricing_lease_contract_length",
+                    "Type": "string"
+                },
+                {
+                    "Name": "pricing_offering_class",
+                    "Type": "string"
+                },
+                {
+                    "Name": "pricing_purchase_option",
+                    "Type": "string"
+                },
+                {
+                    "Name": "pricing_rate_code",
+                    "Type": "string"
+                },
+                {
+                    "Name": "pricing_rate_id",
+                    "Type": "string"
+                },
+                {
+                    "Name": "pricing_currency",
+                    "Type": "string"
+                },
+                {
+                    "Name": "pricing_public_on_demand_cost",
+                    "Type": "double"
+                },
+                {
+                    "Name": "pricing_public_on_demand_rate",
+                    "Type": "string"
+                },
+                {
+                    "Name": "pricing_term",
+                    "Type": "string"
+                },
+                {
+                    "Name": "pricing_unit",
+                    "Type": "string"
+                },
+                {
+                    "Name": "reservation_amortized_upfront_cost_for_usage",
+                    "Type": "double"
+                },
+                {
+                    "Name": "reservation_amortized_upfront_fee_for_billing_period",
+                    "Type": "double"
+                },
+                {
+                    "Name": "reservation_effective_cost",
+                    "Type": "double"
+                },
+                {
+                    "Name": "reservation_end_time",
+                    "Type": "string"
+                },
+                {
+                    "Name": "reservation_modification_status",
+                    "Type": "string"
+                },
+                {
+                    "Name": "reservation_net_amortized_upfront_cost_for_usage",
+                    "Type": "double"
+                },
+                {
+                    "Name": "reservation_net_amortized_upfront_fee_for_billing_period",
+                    "Type": "double"
+                },
+                {
+                    "Name": "reservation_net_effective_cost",
+                    "Type": "double"
+                },
+                {
+                    "Name": "reservation_net_recurring_fee_for_usage",
+                    "Type": "double"
+                },
+                {
+                    "Name": "reservation_net_unused_amortized_upfront_fee_for_billing_period",
+                    "Type": "double"
+                },
+                {
+                    "Name": "reservation_net_unused_recurring_fee",
+                    "Type": "double"
+                },
+                {
+                    "Name": "reservation_net_upfront_value",
+                    "Type": "double"
+                },
+                {
+                    "Name": "reservation_normalized_units_per_reservation",
+                    "Type": "string"
+                },
+                {
+                    "Name": "reservation_number_of_reservations",
+                    "Type": "string"
+                },
+                {
+                    "Name": "reservation_recurring_fee_for_usage",
+                    "Type": "double"
+                },
+                {
+                    "Name": "reservation_reservation_a_r_n",
+                    "Type": "string"
+                },
+                {
+                    "Name": "reservation_start_time",
+                    "Type": "string"
+                },
+                {
+                    "Name": "reservation_subscription_id",
+                    "Type": "string"
+                },
+                {
+                    "Name": "reservation_total_reserved_normalized_units",
+                    "Type": "string"
+                },
+                {
+                    "Name": "reservation_total_reserved_units",
+                    "Type": "string"
+                },
+                {
+                    "Name": "reservation_units_per_reservation",
+                    "Type": "string"
+                },
+                {
+                    "Name": "reservation_unused_amortized_upfront_fee_for_billing_period",
+                    "Type": "double"
+                },
+                {
+                    "Name": "reservation_unused_normalized_unit_quantity",
+                    "Type": "double"
+                },
+                {
+                    "Name": "reservation_unused_quantity",
+                    "Type": "double"
+                },
+                {
+                    "Name": "reservation_unused_recurring_fee",
+                    "Type": "double"
+                },
+                {
+                    "Name": "reservation_upfront_value",
+                    "Type": "double"
+                },
+                {
+                    "Name": "savings_plan_total_commitment_to_date",
+                    "Type": "double"
+                },
+                {
+                    "Name": "savings_plan_savings_plan_a_r_n",
+                    "Type": "string"
+                },
+                {
+                    "Name": "savings_plan_savings_plan_rate",
+                    "Type": "double"
+                },
+                {
+                    "Name": "savings_plan_used_commitment",
+                    "Type": "double"
+                },
+                {
+                    "Name": "savings_plan_savings_plan_effective_cost",
+                    "Type": "double"
+                },
+                {
+                    "Name": "savings_plan_amortized_upfront_commitment_for_billing_period",
+                    "Type": "double"
+                },
+                {
+                    "Name": "savings_plan_recurring_commitment_for_billing_period",
+                    "Type": "double"
+                },
+                {
+                    "Name": "savings_plan_start_time",
+                    "Type": "string"
+                },
+                {
+                    "Name": "savings_plan_end_time",
+                    "Type": "string"
+                },
+                {
+                    "Name": "savings_plan_instance_type_family",
+                    "Type": "string"
+                },
+                {
+                    "Name": "savings_plan_offering_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "savings_plan_payment_option",
+                    "Type": "string"
+                },
+                {
+                    "Name": "savings_plan_purchase_term",
+                    "Type": "string"
+                },
+                {
+                    "Name": "savings_plan_region",
+                    "Type": "string"
+                },
+                {
+                    "Name": "savings_plan_net_savings_plan_effective_cost",
+                    "Type": "double"
+                },
+                {
+                    "Name": "savings_plan_net_amortized_upfront_commitment_for_billing_period",
+                    "Type": "double"
+                },
+                {
+                    "Name": "savings_plan_net_recurring_commitment_for_billing_period",
+                    "Type": "double"
+                },
+                {
+                    "Name": "resource_tags_aws_created_by",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_application",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_business",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_c_m_t",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_cluster_id",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_cluster_name",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_component",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_cost_allocation",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_e_n_v_i_r_o_n_m_e_n_t",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_environment",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_owner",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_project",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_project_name",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_run_id",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_run_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_stack",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_state",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_tool",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_user",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_vendor",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_business_function",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_cms_cloud_component",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_cms_cloud_environment",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_cms_cloud_service",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_cms_cloud_technology",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_cmscloud_description",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_cmscloud_replication_source",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_cmscloud_use",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_cpm_backup",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_cpm_policy_name",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_cpm_server_id",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_epl_apptype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_epl_name",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_epl_node",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_epl_nodetype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_epl_project",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_epl_projecttype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_epl_stacktype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_function",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_layer",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_purpose",
+                    "Type": "string"
+                },
+                {
+                    "Name": "cost_category_c_l_i_n",
+                    "Type": "string"
+                },
+                {
+                    "Name": "cost_category_i_u_s_g_s_p_e",
+                    "Type": "string"
+                },
+                {
+                    "Name": "cost_category_i_u_s_g_sandbox",
+                    "Type": "string"
+                },
+                {
+                    "Name": "cost_category_internal_accounts",
+                    "Type": "string"
+                },
+                {
+                    "Name": "cost_category_leidos_accounts",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_engine",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_group_details",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_replication_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_map_dba",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_map_migrated",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_map_migrated_app",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_map_sap",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_instance_function",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_instances",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_os_license_model",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_pricingplan",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_provider",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_scan_type",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_subservice",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_usage_volume",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_video_memory_gib",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_1year_price",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_3year_price",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_graphqloperation",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_protocol",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_ebs_optimized",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_apirequestsfree",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_apirequestspaid",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_changerequestsfree",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_changerequestspaid",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_action",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_trial_product",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_upfront_commitment",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_data_transfer_quota",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_base_product_reference_code",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_datastore_storagetype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_concurrencyscalingfreeusage",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_enhanced_infrastructure_metrics",
+                    "Type": "string"
+                },
+                {
+                    "Name": "resource_tags_user_program",
+                    "Type": "string"
+                },
+                {
+                    "Name": "product_snapshotarchivefeetype",
+                    "Type": "string"
+                },
+                {
+                    "Name": "year",
+                    "Type": "string"
+                },
+                {
+                    "Name": "month",
+                    "Type": "string"
+                }
+            ],
+            "PartitionKeys": [
+                {
+                    "Name": "year_1",
+                    "Type": "string"
+                },
+                {
+                    "Name": "month_1",
+                    "Type": "string"
+                }
+            ],
+            "Parameters": {
+                "CrawlerSchemaDeserializerVersion": "1.0",
+                "CrawlerSchemaSerializerVersion": "1.0",
+                "UPDATED_BY_CRAWLER": "AWSCURDailyCrawler-cur-daily",
+                "averageRecordSize": "135",
+                "classification": "parquet",
+                "compressionType": "none",
+                "exclusions": "[\"s3://cms-cur-reports-linked-accounts/eadg_idr/daily/**.json\",\"s3://cms-cur-reports-linked-accounts/eadg_idr/daily/**.yml\",\"s3://cms-cur-reports-linked-accounts/eadg_idr/daily/**.sql\",\"s3://cms-cur-reports-linked-accounts/eadg_idr/daily/**.csv\",\"s3://cms-cur-reports-linked-accounts/eadg_idr/daily/**.gz\",\"s3://cms-cur-reports-linked-accounts/eadg_idr/daily/**.zip\"]",
+                "inputformat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat",
+                "location": "s3://cms-cur-reports-linked-accounts/eadg_idr/daily/",
+                "objectCount": "30",
+                "outputformat": "org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat",
+                "recordCount": "738935",
+                "serde.param.serialization.format": "1",
+                "serde.serialization.lib": "org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe",
+                "sizeKey": "66841119",
+                "typeOfData": "file"
+            }
+        }
+    ]
+}
